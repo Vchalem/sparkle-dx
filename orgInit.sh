@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #create scratch org
-sfdx force:org:create -f config/project-scratch-def.json -a FSCADK2 --setdefaultusername -d 1
+sfdx force:org:create -f config/project-scratch-def.json -a SparkleADK --setdefaultusername -d 1
 
 sfdx force:source:push 
 
